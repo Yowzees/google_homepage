@@ -1,8 +1,20 @@
+*{
+	  margin: 0;
+  padding: 0;
+}
+html {
+    height: 100%;
+}
 
-
+body {
+    height: 90%;
+    position: relative;
+    padding-top: 20px;
+}
+}
 #header {
 	position: relative;
-	padding: 15px 10px;
+	padding-right: 10px !important;
 	
 }
 
@@ -39,8 +51,8 @@ li a:hover {
 }
 
 input{
-	width: 500px;
-	height: 36px;
+	width: 450px;
+	height: 45px;
 
 }
 #image-search{
@@ -67,14 +79,18 @@ input{
 	background-repeat: no-repeat, no-repeat;
 }
 
-	input: hover: {
-
-	}
-
+	input:hover
+	 {box-shadow: 0 10px 20px rgba(0,0,0,0.08), 0 6px 6px rgba(0,0,0,0.10)
+}
 #icon{
 	display: block;
 	border-radius: 50%;
 	padding-top: -20px;
+	width: 28px;
+}
+#icontwo{
+	width: 20px;
+	height: 20px;
 }
 
 #button{
@@ -98,4 +114,28 @@ input{
 }
 #button1{
 	margin-right: 20px;
+}
+footer{
+	position: relative;
+	bottom: 0;
+	top: 48%;
+	    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+	float: bottom;
+	color: #5f6368;
+	width: 100%;
+	}
+
+.rightlist{
+	padding-right: 10px;
+	float: right
+	
+}
+.leftlist{
+	
+}
+.buttons:hover{
+border: 1px solid #808080;
+background-color: #F5F5F5;
 }
